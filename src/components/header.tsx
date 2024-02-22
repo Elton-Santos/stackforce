@@ -13,20 +13,34 @@ const Header: React.FC<HeaderProps> = ({ toggleLanguage }) => {
       <div className="logo">
         <img src="/src/images/logo.png" alt="Blog Logo" />
       </div>
-      <nav>
-        <ul>
-          <li>Home</li>
+
+      <nav className="et-menu-nav">
+        <ul id="menu-menu-v2-en" className="et-menu nav">
+          <li className="">
+                <a href="" aria-current="page">Home</a>
+          </li>
+
+          <li className="">
+            <a href="">About us</a>
+          </li>
+
+          <li className="">
+              <a href="">Contact</a>
+          </li>
+
+          <li className="">
+            <div className="language-buttons">
+              <button onClick={() => toggleLanguage()}>
+                <img src="/src/images/usa-flag.png" alt="English Flag" />
+              </button>
+              <button onClick={() => toggleLanguage()}>
+                <img src="/src/images/brazil-flag.png" alt="Portuguese Flag" />
+              </button> 
+            </div>
+          </li>
+          
         </ul>
-      </nav>
-      <div className="language-buttons">
-        <button onClick={() => toggleLanguage()}>
-          <img src="/src/images/usa-flag.png" alt="English Flag" />
-        </button>
-        <button onClick={() => toggleLanguage()}>
-          <img src="/src/images/brazil-flag.png" alt="Portuguese Flag" />
-        </button>
-        {/* Adicione botões adicionais conforme necessário */}
-      </div>
+      </nav> 
     </header>
   );
 };
