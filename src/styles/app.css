@@ -1,0 +1,17 @@
+import React, { Component } from 'React';
+import './App.css';
+import Header from './components/header.stx';
+import Footer from './components/footer.stx';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header/>
+        <Footer/>
+      </div>
+    );
+  }
+}
+
+export default App;
