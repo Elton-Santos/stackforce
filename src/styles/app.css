@@ -1,17 +1,3 @@
-import React, { Component } from 'React';
-import './App.css';
-import Header from './components/header.stx';
-import Footer from './components/footer.stx';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header/>
-        <Footer/>
-      </div>
-    );
+body {
+    font-family: Arial, sans-serif; 
   }
-}
-
-export default App;
