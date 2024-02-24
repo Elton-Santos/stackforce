@@ -23,6 +23,7 @@ header {
 button{
   border: none;
   margin: 0.2em;
+  cursor: pointer;
 }
 
 .logo img {

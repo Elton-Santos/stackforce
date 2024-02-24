@@ -1,5 +1,12 @@
 {
     "title": "Bem-vindo!",
-    "description": "Esta é uma página de exemplo."
-  }
+    "description": "Esta é uma página de exemplo.",
+    "motto": "Empoderando Inovações, Transformando Visões",
+    "slogan": "Sua Solução em Desenvolvimento de Software",
+    "copyright": "Todos os direitos reservados",
+
+    "home": "Home",
+    "about": "Sobre Nós",
+    "contact": "Contato"
+}
   

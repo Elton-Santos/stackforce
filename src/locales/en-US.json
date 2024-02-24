@@ -1,5 +1,11 @@
 {
     "title": "Welcome!",
-    "description": "This is a sample landing page."
-  }
-  
+    "description": "This is a sample landing page.",
+    "motto": "Empowering Inovations, Transforming Visions",
+    "slogan": "Your Software Development Solution",
+    "copyright": "All rights reserved",
+
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+}
