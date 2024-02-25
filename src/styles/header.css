@@ -4,20 +4,21 @@
 }
 
 header {
-    background-color: #efefef;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: larger;
-    font-weight: 400;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;  
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); 
+  background-color: #c4ccfd;
+  background-image: linear-gradient(180deg, #c4ccfd 0%, #f6f6ff 100%);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+  font-weight: 400;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;  
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); 
 }
   
 button{
@@ -46,7 +47,7 @@ nav li {
 nav a {
   box-shadow: inset 0 0 0 0 #54b3d6;
   text-decoration: none;
-  color: black;
+  color: #161616;
   margin: 0;
   padding: 0;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
