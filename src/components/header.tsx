@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = () => {
       <nav className="et-menu-nav">
         <ul id="menu-menu-v2-en" className="et-menu nav">
           <li className="">
-                <a href="" aria-current="page">{t('home')}</a>
+            <a href="" aria-current="page">{t('home')}</a>
           </li>
 
           <li className="">
@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = () => {
           </li>
 
           <li className="">
-              <a href="">{t('contact')}</a>
+            <a href="">{t('contact')}</a>
           </li>
 
           <li className="">
@@ -44,10 +44,10 @@ const Header: React.FC<HeaderProps> = () => {
               </button> 
             </div>
           </li>
-          
         </ul>
       </nav> 
     </header>
+
   );
 };
 
